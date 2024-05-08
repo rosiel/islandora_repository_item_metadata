@@ -3,7 +3,8 @@
   "description": "Create the standard Islandora content type and fields",
   "type": "drupal-recipe",
   "require": {
-    "drupal/core": "^10.2 | ^11"
+    "drupal/core": "^10.2 | ^11",
+    "drupal/geolocation": "^4.0@alpha"
   },
   "suggest": {
   },

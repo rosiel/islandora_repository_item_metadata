@@ -1,4 +1,5 @@
 name: 'Islandora Content Types'
 description: 'Standard content type(s) for use with Islandora.'
 type: 'Access control'
-
+install:
+  - geolocation
