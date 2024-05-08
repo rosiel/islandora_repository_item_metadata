@@ -3,3 +3,4 @@ description: 'Standard content type(s) for use with Islandora.'
 type: 'Access control'
 install:
   - geolocation
+  - controlled_access_terms

@@ -4,7 +4,8 @@
   "type": "drupal-recipe",
   "require": {
     "drupal/core": "^10.2 | ^11",
-    "drupal/geolocation": "^4.0@alpha"
+    "drupal/geolocation": "^4.0@alpha",
+    "drupal/controlled_access_terms": "^2.4.1"
   },
   "suggest": {
   },
