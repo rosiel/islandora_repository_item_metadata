@@ -1,13 +1,4 @@
 name: 'Islandora Content Types'
 description: 'Standard content type(s) for use with Islandora.'
 type: 'Access control'
-config:
-  import:
-    node:
-      - node.type.islandora_object
-    field:
-      storage:
-        - field.storage.node.field_weight
-      field:
-        - field.field.node.islandora_object.field_weight
 
