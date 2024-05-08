@@ -1,0 +1,8 @@
+name: 'Islandora Content Types'
+description: 'Standard content type(s) for use with Islandora.'
+type: 'Access control'
+config:
+  import:
+    node:
+      - node.type.islandora_object
+

@@ -1,0 +1,12 @@
+{
+  "name": "islandora/islandora_content_types",
+  "description": "Create the standard Islandora content type and fields",
+  "type": "drupal-recipe",
+  "require": {
+    "drupal/core": "^10.2 | ^11"
+  },
+  "suggest": {
+  },
+  "license": "GPL-2.0-or-later"
+}
+
