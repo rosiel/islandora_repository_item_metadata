@@ -1,6 +1,3 @@
 name: 'Islandora Content Types'
-description: 'Standard content type(s) for use with Islandora.'
-type: 'Access control'
-install:
-  - geolocation
-  - controlled_access_terms
+description: 'Starter content type and fields to hold descriptive metadata.'
+type: 'islandora'

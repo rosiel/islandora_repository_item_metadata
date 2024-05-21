@@ -1,14 +1,11 @@
 {
   "name": "islandora/islandora_content_types",
-  "description": "Create the standard Islandora content type and fields",
+  "description": "Drupal Recipe to create starter content types for use with descriptive metadata.",
   "type": "drupal-recipe",
   "require": {
-    "drupal/core": "^10.2 | ^11",
-    "drupal/geolocation": "^3 | ^4.0@alpha",
-    "drupal/controlled_access_terms": "^2.4.1"
+    "drupal/core": "^10.2 | ^11"
   },
   "suggest": {
   },
   "license": "GPL-2.0-or-later"
 }
-
