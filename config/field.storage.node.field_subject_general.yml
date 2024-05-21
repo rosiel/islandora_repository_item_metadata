@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
     - taxonomy
-third_party_settings: { }
+third_party_settings: {  }
 _core:
   default_config_hash: fXUhtVLF4KMt98foBWSxC9fxqIw7seWMjncKD7mf_rs
 id: node.field_subject_general

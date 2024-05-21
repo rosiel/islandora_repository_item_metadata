@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
     - taxonomy
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_mode_of_issuance
 field_name: field_mode_of_issuance
 entity_type: node

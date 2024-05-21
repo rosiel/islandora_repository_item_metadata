@@ -4,7 +4,7 @@ status: true
 dependencies:
   module:
     - node
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_local_identifier
 field_name: field_local_identifier
 entity_type: node

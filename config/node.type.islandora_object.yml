@@ -1,7 +1,7 @@
 uuid: 6399fba1-f0d8-4c8a-8162-9c8dd4d357ff
 langcode: en
 status: true
-third_party_settings: { }
+third_party_settings: {  }
 name: 'Repository Item'
 type: islandora_object
 description: 'An item in your Islandora repository.'

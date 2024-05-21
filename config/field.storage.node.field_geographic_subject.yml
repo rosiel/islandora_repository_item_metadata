@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
     - taxonomy
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_geographic_subject
 field_name: field_geographic_subject
 entity_type: node

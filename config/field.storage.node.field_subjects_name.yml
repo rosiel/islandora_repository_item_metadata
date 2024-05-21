@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
     - taxonomy
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_subjects_name
 field_name: field_subjects_name
 entity_type: node

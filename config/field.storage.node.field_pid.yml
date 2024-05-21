@@ -4,7 +4,7 @@ status: true
 dependencies:
   module:
     - node
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_pid
 field_name: field_pid
 entity_type: node

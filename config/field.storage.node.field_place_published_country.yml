@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
     - taxonomy
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_place_published_country
 field_name: field_place_published_country
 entity_type: node

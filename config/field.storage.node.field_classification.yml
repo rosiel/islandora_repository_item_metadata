@@ -4,7 +4,7 @@ status: true
 dependencies:
   module:
     - node
-third_party_settings:
+third_party_settings: {  }
 id: node.field_classification
 field_name: field_classification
 entity_type: node

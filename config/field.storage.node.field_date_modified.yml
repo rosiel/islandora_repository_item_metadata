@@ -5,7 +5,7 @@ dependencies:
   module:
     - controlled_access_terms
     - node
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_date_modified
 field_name: field_date_modified
 entity_type: node

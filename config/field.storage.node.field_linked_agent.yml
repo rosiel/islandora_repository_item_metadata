@@ -6,7 +6,7 @@ dependencies:
     - controlled_access_terms
     - node
     - taxonomy
-third_party_settings: { }
+third_party_settings: {  }
 id: node.field_linked_agent
 field_name: field_linked_agent
 entity_type: node
