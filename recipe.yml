@@ -1,3 +1,6 @@
 name: 'Islandora Content Types'
 description: 'Starter content type and fields to hold descriptive metadata.'
 type: 'islandora'
+install:
+  - geolocation
+  - controlled_access_terms
