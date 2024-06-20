@@ -5,7 +5,9 @@
   "require": {
     "drupal/core": "^10.2 | ^11",
     "drupal/geolocation": "^3 | ^4.0@alpha",
-    "drupal/controlled_access_terms": "^2.4.1"
+    "drupal/controlled_access_terms": "^2.4.1",
+    "islandora/islandora_metadata_vocabularies": "dev-main",
+    "islandora/islandora_vocabularies": "dev-main"
   },
   "suggest": {
   },

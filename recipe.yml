@@ -1,6 +1,9 @@
 name: 'Islandora Content Types'
 description: 'Starter content type and fields to hold descriptive metadata.'
 type: 'islandora'
+recipes:
+  - islandora_vocabularies
+  - islandora_metadata_vocabularies
 install:
   - geolocation
   - controlled_access_terms
