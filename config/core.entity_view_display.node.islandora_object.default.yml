@@ -443,11 +443,3 @@ hidden:
   field_weight: true
   islandora_fits_checksum: true
   langcode: true
-  openseadragon_media_evas_entity_view_1: true
-  openseadragon_media_evas_entity_view_2: true
-  openseadragon_media_evas_service_file: true
-  pdfjs_media_evas_entity_view_1: true
-  pdfjs_media_evas_entity_view_2: true
-  pdfjs_media_evas_service_file: true
-  search_api_excerpt: true
-  search_within_this_collection_link_entity_view_1: true

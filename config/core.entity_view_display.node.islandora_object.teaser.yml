@@ -52,7 +52,6 @@ dependencies:
     - node.type.islandora_object
   module:
     - controlled_access_terms
-    - search_api_solr
     - user
 _core:
   default_config_hash: JknApCSkcV3PzfTMK_yhbY65o6sBHvjIs5J6dJF2YI0
@@ -67,7 +66,7 @@ content:
     weight: 0
     region: content
   field_abstract:
-    type: solr_highlighted_text_default
+    type: string
     label: inline
     settings:
       prefix: '<strong>'
@@ -173,12 +172,3 @@ hidden:
   field_viewer_override: true
   field_weight: true
   langcode: true
-  members_eva_entity_view_1: true
-  openseadragon_media_evas_entity_view_1: true
-  openseadragon_media_evas_entity_view_2: true
-  openseadragon_media_evas_service_file: true
-  pdfjs_media_evas_entity_view_1: true
-  pdfjs_media_evas_entity_view_2: true
-  pdfjs_media_evas_service_file: true
-  search_api_excerpt: true
-  search_within_this_collection_link_entity_view_1: true
