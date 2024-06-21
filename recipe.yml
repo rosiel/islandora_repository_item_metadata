@@ -507,7 +507,137 @@ config:
               placeholder: ''
             third_party_settings: {  }
       setThirdPartySettings:
-        - 
+        -
+          module: field_group
+          key: group_structure
+          value:
+            children:
+              - field_member_of
+              - field_weight
+              - field_viewer_override
+              - langcode
+              - translation
+              - path
+              - status
+              - promote
+              - uid
+              - created
+              - sticky
+            label: System
+            region: content
+            parent_name: ''
+            weight: 11
+            format_type: details
+            format_settings:
+              classes: ''
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_identifiers
+          value:
+            children:
+              - field_identifier
+              - field_isbn
+              - field_oclc_number
+              - field_local_identifier
+              - field_pid
+            label: Identifiers
+            region: content
+            parent_name: ''
+            weight: 8
+            format_type: details
+            format_settings:
+              classes: ''
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_publication_details
+          value:
+            children:
+              - field_publisher
+              - field_place_published
+              - field_place_published_country
+              - field_edtf_date_issued
+              - field_edtf_date_created
+              - field_copyright_date
+              - field_edtf_date
+              - field_edition
+              - group_issuance
+            label: 'Publication Details and Dates'
+            region: content
+            parent_name: ''
+            weight: 2
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: false
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_additional_date_types
+          value:
+            children:
+              - field_date_valid
+              - field_date_captured
+              - field_date_modified
+            label: 'Additional Date Types'
+            region: content
+            parent_name: ''
+            weight: 10
+            format_type: details
+            format_settings:
+              classes: ''
+              id: ''
+              open: false
+              description: 'Less-frequently needed fields for specific types of dates'
+              required_fields: true
+        -
+          module: field_group
+          key: group_classification_
+          value:
+            children:
+              - field_dewey_classification
+              - field_lcc_classification
+              - field_classification
+            label: 'Classification '
+            region: content
+            parent_name: ''
+            weight: 7
+            format_type: details
+            format_settings:
+              classes: ''
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_geographic_coordinates
+          value:
+            children:
+              - field_coordinates
+              - field_coordinates_text
+            label: 'Geographic Coordinates'
+            region: content
+            parent_name: group_subjects
+            weight: 15
+            format_type: details
+            format_settings:
+              classes: ''
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
           module: field_group
           key: group_title_and_contributors
           value:
@@ -528,3 +658,124 @@ config:
               open: true
               description: ''
               required_fields: true
+        -
+          module: field_group
+          key: group_type_and_extent
+          value:
+            children:
+              - field_resource_type
+              - field_physical_form
+              - field_extent
+              - field_genre
+            label: 'Type and Extent'
+            region: content
+            parent_name: ''
+            weight: 4
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: true
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_issuance
+          value:
+            children:
+              - field_mode_of_issuance
+              - field_frequency
+            label: Issuance
+            region: content
+            parent_name: group_publication_details
+            weight: 16
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: true
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_descriptions_and_notes
+          value:
+            children:
+              - field_description
+              - field_abstract
+              - field_note
+              - field_table_of_contents
+            label: 'Descriptions and Notes'
+            region: content
+            parent_name: ''
+            weight: 5
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: true
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_subjects
+          value:
+            children:
+              - field_subject_general
+              - field_subject
+              - field_subjects_name
+              - field_temporal_subject
+              - field_geographic_subject
+              - group_geographic_coordinates
+            label: Subjects
+            region: content
+            parent_name: ''
+            weight: 6
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: false
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_rights
+          value:
+            children:
+              - field_rights
+            label: Rights
+            region: content
+            parent_name: ''
+            weight: 9
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: true
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+        -
+          module: field_group
+          key: group_language
+          value:
+            children:
+              - field_language
+            label: Language
+            region: content
+            parent_name: ''
+            weight: 3
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: false
+              id: ''
+              open: false
+              description: ''
+              required_fields: true
+      
