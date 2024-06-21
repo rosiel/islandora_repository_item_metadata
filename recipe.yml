@@ -506,3 +506,25 @@ config:
               size: 60
               placeholder: ''
             third_party_settings: {  }
+      setThirdPartySettings:
+        - 
+          module: field_group
+          key: group_title_and_contributors
+          value:
+            children:
+              - title
+              - field_full_title
+              - field_alt_title
+              - field_linked_agent
+            label: 'Title and Contributors'
+            region: content
+            parent_name: ''
+            weight: 1
+            format_type: details
+            format_settings:
+              classes: ''
+              show_empty_fields: true
+              id: ''
+              open: true
+              description: ''
+              required_fields: true
