@@ -44,6 +44,7 @@ config:
             third_party_settings: {  }
         -
            name: field_classification
+           options:
             type: string_textfield
             weight: 27
             region: content
