@@ -488,6 +488,15 @@ config:
             settings: {  }
             third_party_settings: {  }
         -
+          name: field_weight
+          options:
+            type: number
+            weight: 16
+            region: content
+            settings:
+              placeholder: ''
+            third_party_settings: {  } 
+        -
           name: title
           options:
             type: string_textfield
